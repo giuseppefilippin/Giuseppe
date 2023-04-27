@@ -117,8 +117,8 @@ elif opcao == '3':
         if escolha == 'sair':
             print(f'\033[32mO placar final foi {p1} x {p2}\033[m')
             break
-nome = ['\033[35mCriadores do código: ', '- Giuseppe Filippin', '- Felipe Baleche', '- Evandro Diniz', 
+creditos = ['\033[35mCriadores do código: ', '- Giuseppe Filippin', '- Felipe Baleche', '- Evandro Diniz', 
         '- André Eller', '-Johan Stromberg\033[31m(Rei delas)\33[m' , '- \033[35mTe amamos professora💜\033[m']
-for i in range(0, 7):
-    print(nome[i])
+for nome in creditos:
+    print(nome)
     sleep(1)
